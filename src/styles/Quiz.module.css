@@ -1,0 +1,73 @@
+.container {
+    width: 650px;
+}
+
+.label {
+    font-size: 18px;
+}
+
+.process {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 3px;
+}
+
+.process .line {
+    width: 12px;
+    height: 3px;
+    background: #b9b1b1;
+}
+
+.process .line.active {
+    background: #000;
+}
+
+.question {
+    font-size: 30px;
+}
+
+.options {
+    margin-top: 15px;
+}
+
+.option {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 8px;
+    width: 50%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.option:hover {
+    background: #d6d3d3;
+}
+
+.option.active {
+    background: rgb(139, 203, 139);
+}
+
+.btnNext {
+    margin-top: 10px;
+    background: var(--primary-bg);
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.btnNext.opacity {
+    opacity: 0.7;
+    cursor: no-drop;
+}
+
+@media screen and (max-width: 700px ) {
+    .container {
+        width: 320px;
+    }
+
+    .option {
+        width: 100%;
+    }
+}

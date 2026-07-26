@@ -1,0 +1,27 @@
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.formControl {
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+}
+
+.buttonStart {
+    width: 100%;
+    height: 40px;
+    background: var(--primary-bg);
+    cursor: pointer;
+    color: var(--light-color);
+    border: none;
+}
