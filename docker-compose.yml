@@ -3,7 +3,7 @@ services:
     build: ./
     container_name: react-quiz-docker
     ports:
-      - '5000:5173'
+      - '5173:5173'
     volumes:
       - .:/app
       - /app/node_modules
